@@ -16,9 +16,9 @@ import random
 from pyrogram import filters
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from ShashankMusic import app
-from ShashankMusic.misc import SUDOERS
-from config import SHASHANK_PIC
+from AloneMusic import app
+from AloneMusic.misc import SUDOERS
+from config import Alone_PIC
 
 
 @app.on_message(filters.command("promo") & SUDOERS)
@@ -38,7 +38,7 @@ async def promo_post(client, message):
 <b>● ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ –</b> <a href="https://t.me/{app.username}">@{app.username}</a>
 """
 
-    random_photo = random.choice(SHASHANK_PIC)
+    random_photo = random.choice(Alone_PIC)
 
     buttons = [
         [
@@ -50,7 +50,7 @@ async def promo_post(client, message):
     ]
 
     await app.send_photo(
-        chat_id="@Spotify_update_s",
+        chat_id="@subbubots",
         photo=random_photo,
         caption=promo_text,
         reply_markup=InlineKeyboardMarkup(buttons),
