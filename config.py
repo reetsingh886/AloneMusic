@@ -108,6 +108,20 @@ SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/34xlvu.jpg"
 
+SHASHANK_PIC = [
+    "https://files.catbox.moe/fh7vw7.jpg",
+    "https://files.catbox.moe/lckxh6.jpg",
+    "https://files.catbox.moe/smteo6.jpg",
+    "https://files.catbox.moe/7enu2i.jpg",
+    "https://files.catbox.moe/n6hkvd.jpg",
+    "https://files.catbox.moe/ej1p7t.jpg",
+    "https://files.catbox.moe/fh7vw7.jpg",
+    "https://files.catbox.moe/lckxh6.jpg",
+    "https://files.catbox.moe/smteo6.jpg",
+    "https://files.catbox.moe/7enu2i.jpg",
+    "https://files.catbox.moe/n6hkvd.jpg",
+    "https://files.catbox.moe/ej1p7t.jpg"
+]
 
 def time_to_seconds(time):
     stringt = str(time)
